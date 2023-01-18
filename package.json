@@ -1,0 +1,28 @@
+{
+  "name": "jobs-api",
+  "version": "1.0.0",
+  "description": "building a job hunting api",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjox/jobs-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenjox/jobs-api/issues"
+  },
+  "homepage": "https://github.com/kenjox/jobs-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4"
+  }
+}

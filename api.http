@@ -1,0 +1,6 @@
+### Register user
+POST http://localhost:8000/api/v1/auth/register
+
+
+### Login user
+POST http://localhost:8000/api/v1/auth/login
